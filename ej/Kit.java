@@ -1,5 +1,9 @@
 package ej;
 
+import ej.blocs.IBloc;
+import ej.blocs.Mur;
+import ej.blocs.Porte;
+
 import java.util.LinkedHashSet;
 import java.util.Set;
 
