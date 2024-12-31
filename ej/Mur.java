@@ -4,8 +4,8 @@ public class Mur extends Bloc {
 
 	private boolean holds;
 	
-	public Mur(final int longueur, final int largeur, final int hauteur, final boolean holds) {
-		super(longueur, largeur, hauteur);
+	public Mur(final int length, final int width, final int height, final boolean holds, final Color color) {
+		super(length, width, height, color);
 		this.holds = holds;
 	}
 

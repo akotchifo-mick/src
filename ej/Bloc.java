@@ -1,27 +1,29 @@
 package ej;
 
-public abstract class Bloc {
+public abstract class Bloc implements IBloc{
 
-	private int longueur;
-	private int largeur;
-	private int hauteur;
+	protected int length;
+	protected int width;
+	protected int height;
+	protected Color color;
 	
-	public Bloc(final int longueur, final int largeur, final int hauteur) {
-		this.longueur = longueur;
-		this.largeur = largeur;
-		this.hauteur = hauteur;
+	public Bloc(final int length, final int width, final int height, final Color color) {
+		this.length = length;
+		this.width = width;
+		this.height = height;
+		this.color = color;
 	}
 
-	public final int getLongueur() {
-		return longueur;
+	public final int getLong() {
+		return length;
 	}
 
 	public final int getLargeur() {
-		return largeur;
+		return width;
 	}
 
 	public final int getHauteur() {
-		return hauteur;
+		return height;
 	}	
 	
 }
